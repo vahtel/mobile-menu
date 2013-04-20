@@ -171,11 +171,11 @@ var mobileApp = mobileApp || {};
           html.removeClass("build-menu-close");
 
           page.css({
-            "-webkit-transform": "translateX("+_this.config.menu_width+"px"+")",
-            "-moz-transform": "translateX("+_this.config.menu_width+"px"+")",
-            "-o-transform": "translateX("+_this.config.menu_width+"px"+")",
-            "-ms-transform": "translateX("+_this.config.menu_width+"px"+")",
-            "transform": "translateX("+_this.config.menu_width+"px"+")"
+            "-webkit-transform": "translateX(-"+_this.config.menu_width+"px"+")",
+            "-moz-transform": "translateX(-"+_this.config.menu_width+"px"+")",
+            "-o-transform": "translateX(-"+_this.config.menu_width+"px"+")",
+            "-ms-transform": "translateX(-"+_this.config.menu_width+"px"+")",
+            "transform": "translateX(-"+_this.config.menu_width+"px"+")"
           });
 
           overlay.css("visibility", "visible").fadeTo("slow",0.5);
